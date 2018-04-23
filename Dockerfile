@@ -10,4 +10,6 @@ RUN cd /opt/ \
   && ln -s apache-jmeter-${JMETER_VERSION} apache-jmeter \
   && rm apache-jmeter-${JMETER_VERSION}.tgz*
 
+EXPOSE 4445
+
 ENTRYPOINT ["/opt/apache-jmeter/bin/jmeter", "-n"]
