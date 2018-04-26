@@ -12,4 +12,4 @@ RUN cd /opt/ \
 
 EXPOSE 4445
 
-ENTRYPOINT ["/opt/apache-jmeter/bin/jmeter", "-n"]
+ENTRYPOINT ["/opt/apache-jmeter/bin/jmeter"]
